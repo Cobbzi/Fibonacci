@@ -9,7 +9,7 @@ namespace fibonacci
         {
             bool stop = false;
             Console.WriteLine("Enter amount of fibonacci numbers to calculate\n(be careful with values over 10,000)");
-            Console.WriteLine("Enter 3040 to exit.");
+            Console.WriteLine("\nEnter 3040 to exit.");
             uint amount = uint.Parse(Console.ReadLine());
 
             if (amount == 3040)
